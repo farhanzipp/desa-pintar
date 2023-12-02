@@ -10,11 +10,11 @@ const Navbar = () => {
 
   return (
     <header className="absolute inset-x-0 top-0 z-50">
-      <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <nav className="flex container mx-auto items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Desa Pintar</span>
-            <a href='#' className='text-base text-gray-900'>DesaPintar</a>
+            <a href='#' className='text-2xl font-semibold text-emerald-500'>DesaPintar</a>
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -34,7 +34,7 @@ const Navbar = () => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
+          <a href="#" className="px-5 py-2 text-base text-white bg-emerald-500 font-semibold rounded-full">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
