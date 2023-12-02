@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Navbar = () => {
   const navigation = [
     { name: 'Product', href: '#' },
@@ -28,13 +26,13 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-base  font-semibold leading-6 text-gray-900">
+            <a key={item.name} href={item.href} className="text-base  font-semibold leading-6 text-gray-900 hover:text-emerald-600 duration-300">
               {item.name}
             </a>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="px-5 py-2 text-base text-white bg-emerald-500 font-semibold rounded-full">
+          <a href="#" className="px-5 py-2 text-base text-white bg-emerald-500 font-semibold rounded-full hover:bg-emerald-600 duration-500">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>

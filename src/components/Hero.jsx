@@ -1,12 +1,11 @@
 
-import blooming from '../assets/blooming.svg';
+import blooming from '../assets/bloom.svg';
 
 const Hero = () => {
   return (
     <div>
       <section>
-        <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:pb-24 lg:pt-32 lg:flex-row lg:justify-between">
-          
+        <div className="container flex flex-col justify-center p-6 mx-auto xs:py-20 sm:py-12 lg:pb-24 lg:pt-32 lg:flex-row lg:justify-between">
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <h1 className="text-5xl font-bold sm:text-6xl">Develop your
               <br />
@@ -18,7 +17,7 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-              <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg bg-emerald-500 font-semibold rounded">Suspendisse</a>
+              <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg bg-emerald-500 font-semibold rounded text-white hover:bg-emerald-600 duration-500">Suspendisse</a>
               <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold border rounded ">Malesuada</a>
             </div>
           </div>
