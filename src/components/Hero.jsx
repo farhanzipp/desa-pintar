@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div>
       <section>
-        <div className="container flex flex-col justify-center p-6 mx-auto xs:py-20 sm:py-20 lg:pb-28 lg:pt-36 lg:flex-row lg:justify-between">
+        <div className="container flex flex-col justify-center p-6 mx-auto xs:py-20 sm:py-20 lg:pb-24 lg:pt-24 lg:flex-row lg:justify-between">
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <h1 className="text-5xl font-bold sm:text-6xl">Develop your
               <br />
