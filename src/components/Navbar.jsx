@@ -2,6 +2,7 @@ import { useState } from "react"
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
   const navigation = [
     { name: 'Product', href: '#' },
     { name: 'Features', href: '#' },
@@ -17,7 +18,7 @@ const Navbar = () => {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Desa Pintar</span>
-              <a href='#' className='text-2xl font-semibold text-emerald-500'>DesaPintar</a>
+              <p href='#' className='text-2xl font-semibold text-emerald-500'>DesaPintar</p>
             </a>
           </div>
 
@@ -46,7 +47,6 @@ const Navbar = () => {
             </a>
           </div>
         </nav>
-      </header>
       {mobileMenuOpen && <div className="flex flex-col lg:hidden items-center gap-2 transition-all">
 
         {navigation.map((item) => (
@@ -55,6 +55,7 @@ const Navbar = () => {
           </a>
         ))}
       </div>}
+      </header>
 
     </>
   )
