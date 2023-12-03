@@ -25,7 +25,7 @@ const Navbar = () => {
             <button
               type="button"
               className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-              onClick={() => setMobileMenuOpen(()=> !mobileMenuOpen)}
+              onClick={() => setMobileMenuOpen((mobileMenuOpen)=> !mobileMenuOpen)}
             >
               <span className="sr-only">Open main menu</span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
@@ -47,7 +47,7 @@ const Navbar = () => {
           </div>
         </nav>
       </header>
-      {mobileMenuOpen && <div className="flex flex-col items-center gap-2 transition-all">
+      {mobileMenuOpen && <div className="flex flex-col lg:hidden items-center gap-2 transition-all">
 
         {navigation.map((item) => (
           <a key={item.name} href={item.href} className="text-base  font-semibold leading-6 text-gray-900 hover:text-emerald-600 duration-300">
