@@ -17,7 +17,56 @@ const Partners = () => {
                     </p>
                 </div>
             </div>
-            <div className="pb-12 grid gap-10 mx-auto lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-4">
+            <div className="pb-12 grid gap-10 mx-auto lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-8">
+                <div className="flex flex-col items-center">
+                    <img
+                        className="object-cover w-20 h-20 mb-2 shadow"
+                        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                        alt="Person"
+                    />
+                </div>
+                <div className="flex flex-col items-center">
+                    <img
+                        className="object-cover w-20 h-20 mb-2 shadow"
+                        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                        alt="Person"
+                    />
+                </div>
+                <div className="flex flex-col items-center">
+                    <img
+                        className="object-cover w-20 h-20 mb-2 shadow"
+                        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                        alt="Person"
+                    />
+                </div>
+                <div className="flex flex-col items-center">
+                    <img
+                        className="object-cover w-20 h-20 mb-2 shadow"
+                        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                        alt="Person"
+                    />
+                </div>
+                <div className="flex flex-col items-center">
+                    <img
+                        className="object-cover w-20 h-20 mb-2 shadow"
+                        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                        alt="Person"
+                    />
+                </div>
+                <div className="flex flex-col items-center">
+                    <img
+                        className="object-cover w-20 h-20 mb-2 shadow"
+                        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                        alt="Person"
+                    />
+                </div>
+                <div className="flex flex-col items-center">
+                    <img
+                        className="object-cover w-20 h-20 mb-2 shadow"
+                        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                        alt="Person"
+                    />
+                </div>
                 <div className="flex flex-col items-center">
                     <img
                         className="object-cover w-20 h-20 mb-2 shadow"
