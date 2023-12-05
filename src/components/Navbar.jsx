@@ -4,10 +4,10 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
+    { name: 'Features', href: '#features' },
+    { name: 'Partners', href: '#partners' },
+    { name: 'Blog', href: '#blog' },
+    { name: 'FAQs', href: '#faqs' },
   ]
 
 
