@@ -33,9 +33,14 @@ const Features = () => {
                     </p>
                 </div>
                 <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                    {/* <FeatureCard 
+                        icon={iconDefault} 
+                        title="Precision Agriculture" 
+                        description="Optimize planting, irrigation, and harvesting with GPS and sensor technologies. Make data-driven decisions for sustainable and efficient farming practices." 
+                    /> */}
                     <FeatureCard 
                         icon={iconDefault} 
-                        title="Precision Crop Management" 
+                        title="Precision Agriculture" 
                         description="Optimize planting, irrigation, and harvesting with GPS and sensor technologies. Make data-driven decisions for sustainable and efficient farming practices." 
                     />
                     <FeatureCard 
