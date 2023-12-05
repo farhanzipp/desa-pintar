@@ -34,14 +34,26 @@ const Features = () => {
                     </p>
                 </div>
                 <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
-                    <FeatureCard icon={iconDefault} title="The Deep Ocean" description="A flower in my garden, a mystery in my panties. Heart attack never
-                stopped old Big Bear." />
-                    <FeatureCard icon={iconDefault} title="The Deep Ocean" description="A flower in my garden, a mystery in my panties. Heart attack never
-                stopped old Big Bear." />
-                    <FeatureCard icon={iconDefault} title="The Deep Ocean" description="A flower in my garden, a mystery in my panties. Heart attack never
-                stopped old Big Bear." />
-                    <FeatureCard icon={iconDefault} title="The Deep Ocean" description="A flower in my garden, a mystery in my panties. Heart attack never
-                stopped old Big Bear." />
+                    <FeatureCard 
+                        icon={iconDefault} 
+                        title="Precision Crop Management" 
+                        description="Optimize planting, irrigation, and harvesting with GPS and sensor technologies. Make data-driven decisions for sustainable and efficient farming practices." 
+                    />
+                    <FeatureCard 
+                        icon={iconDefault} 
+                        title="Real-time Crop Insights" 
+                        description="Access instant data on soil, temperature, and crop health from anywhere. Stay informed, make smart decisions, and transform your farming experience with IoT connectivity." 
+                    />
+                    <FeatureCard 
+                        icon={iconDefault} 
+                        title=" Automated Irrigation" 
+                        description="Revolutionize water management with automated irrigation. Customize schedules remotely, conserve water, and maximize crop yield while minimizing operational costs." 
+                    />
+                    <FeatureCard 
+                        icon={iconDefault} 
+                        title=" Crop Health Analytics" 
+                        description="Detect diseases, pests, and nutrient deficiencies early with advanced analytics. Safeguard your crops, ensure a bountiful harvest, and proactively manage crop health." 
+                    />
                 </div>
             </div>
         </section>
