@@ -26,11 +26,10 @@ const Features = () => {
                         </p>
                     </div>
                     <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-                        quick, brown fox jumps over a lazy dog
+                        Welcome to Futuristic Farming Solutions
                     </h2>
                     <p className="text-base text-gray-700 md:text-lg">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque rem aperiam, eaque ipsa quae.
+                        Explore our cutting-edge features designed to elevate your farming experience. From precision agriculture to advanced analytics, our smart farming solutions redefine efficiency and sustainability.
                     </p>
                 </div>
                 <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">

@@ -1,5 +1,3 @@
-import FeatureCard from "./FeatureCard"
-
 const LatestBlog = () => {
 
     const iconDefault = <svg
@@ -25,11 +23,10 @@ const LatestBlog = () => {
                     </p>
                 </div>
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-                    Lorem ipsum dolor sit amet
+                    Insights from the Field
                 </h2>
                 <p className="text-base text-gray-700 md:text-lg">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque rem aperiam, eaque ipsa quae.
+                    Dive into our blog for expert perspectives, industry trends, and practical tips. Stay informed about the latest advancements, best practices, and success stories in the dynamic world of smart farming.
                 </p>
             </div>
             <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
