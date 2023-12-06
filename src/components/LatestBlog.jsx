@@ -34,14 +34,13 @@ const LatestBlog = () => {
                         <a
                             href="/"
                             aria-label="Category"
-                            title="Visit the East"
-                            className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                            title="Revolutionizing Agriculture with Smart Tech"
+                            className="inline-block mb-3 text-xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
                         >
-                            Visit the East
+                            Revolutionizing Agriculture with Smart Tech
                         </a>
                         <p className="mb-2 text-gray-700">
-                            Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                            consequuntur magni voluptatem doloremque.
+                            Unlock the potential of smart agriculture! Discover how cutting-edge technologies are reshaping farming practices
                         </p>
                         <a
                             href="/"
@@ -73,14 +72,13 @@ const LatestBlog = () => {
                         <a
                             href="/"
                             aria-label="Category"
-                            title="Simple is better"
-                            className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                            title="Digital Farming: A Game-Changer"
+                            className="inline-block mb-3 text-xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
                         >
-                            Simple is better
+                           Digital Farming: A Game-Changer
                         </a>
                         <p className="mb-2 text-gray-700">
-                            Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                            consequuntur magni voluptatem doloremque.
+                            Dive into the world of digital farming! Explore the latest innovations in precision agriculture, from IoT
                         </p>
                         <a
                             href="/"
@@ -113,13 +111,12 @@ const LatestBlog = () => {
                             href="/"
                             aria-label="Category"
                             title="Film It!"
-                            className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                            className="inline-block mb-3 text-xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
                         >
-                            Film It!
+                            The Rise of AgTech: Cultivating Tomorrow
                         </a>
                         <p className="mb-2 text-gray-700">
-                            Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                            consequuntur magni voluptatem doloremque.
+                        Witness the transformative impact of AgTech on modern agriculture. Explore how smart devices, data analytics,
                         </p>
                         <a
                             href="/"
